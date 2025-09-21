@@ -1,97 +1,71 @@
-Developer Bio - React Native App
-This is a complete developer portfolio/bio application, built with React Native and Expo. The project was developed iteratively through 16 exercises covering everything from initial architecture to API consumption, global state management, local storage, and styling with a dynamic theme (light/dark).
+# 👨‍💻 Developer Bio - React Native App
 
-✨ Features
-Complete Navigation: Utilizes Stack and Bottom Tab Navigators for a fluid user experience.
+This is a complete developer portfolio/bio application, built with **React Native** and **Expo**.  
+The project was developed iteratively through 16 exercises covering everything from initial architecture to API consumption, global state management, local storage, and styling with a dynamic theme (light/dark).  
 
-Dynamic Profile: Home and Profile sections that display developer information.
+---
 
-Real API Consumption:
+## ✨ Features
 
-List of projects fetched directly from the GitHub API.
+- **Complete Navigation:** Uses Stack and Bottom Tab Navigators for a smooth experience.  
+- **Dynamic Profile:** Home and Profile screens display developer information.  
+- **Real API Consumption:**  
+  - Project list fetched directly from the **GitHub API**.  
+  - Article list fetched from the **Dev.to API**.  
+- **Global State Management:** React’s Context API is used to manage user data and the app theme.  
+- **Data Persistence:** **AsyncStorage** is used to save the app history, preserving data even after the app is closed.  
+- **Dynamic Theme:** A settings screen allows switching between **light** and **dark mode** across the entire app.  
+- **WebView:** Articles open within the app for an integrated reading experience.  
+- **Organized Code:** Modular folder structure (`screens`, `contexts`, `navigation`, `styles`) to facilitate maintenance and scalability.  
 
-List of articles fetched from the Dev.to API.
+---
 
-Global State Management: React's Context API is used to manage user data and the application theme.
+## 🚀 Technologies Used
 
-Data Persistence: Uses AsyncStorage to save the application history, preserving data even after the app is closed.
+- [React Native](https://reactnative.dev/)  
+- [Expo](https://expo.dev/)  
+- [React Navigation](https://reactnavigation.org/)  
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/)  
+- **JavaScript (ES6+)**  
+- [Context API](https://react.dev/reference/react/Context)  
 
-Dynamic Theme: A settings screen allows the user to switch between light and dark mode throughout the entire application.
+---
 
-WebView: Articles open within the app for an integrated reading experience.
+## 📸 App Screenshots
 
-Organized Code: Modular folder structure (screens, contexts, navigation, styles) to facilitate maintenance and scalability.
+- **Home Screen (Light)**  
+  ![Home Screen](./screenshots/home.png)  
 
-🚀 Technologies Used
-React Native
+- **Projects Screen (Dark)**  
+  ![Projects Screen](./screenshots/projects.png)  
 
-Expo
-
-React Navigation
-
-AsyncStorage
-
-JavaScript (ES6+)
-
-Context API (React)
-
-📸 App Screenshots
-Home Screen (Light)
-
-Projects Screen (Dark)
-
-Settings Screen
-
-
+- **Settings Screen**  
+  ![Settings Screen](./screenshots/settings.png)  
 
 
+---
 
+## 🛠️ How to Run the Project
 
+### Prerequisites
+- [Node.js (LTS)](https://nodejs.org/)  
+- [Git](https://git-scm.com/)  
+- Expo CLI (`npm install -g expo-cli`)  
+- **Expo Go** app on your smartphone (iOS or Android)  
 
-(Replace with a screenshot of your Home screen)
+### Steps
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repository.git
 
-(Replace with a screenshot of your Projects screen)
-
-(Replace with a screenshot of your Settings screen)
-
-🛠️ How to Run the Project
-To run this project locally, follow the steps below:
-
-Prerequisites:
-
-Node.js (LTS version recommended)
-
-Git
-
-Expo CLI (npm install -g expo-cli)
-
-Expo Go app on your smartphone (iOS or Android)
-
-Steps:
-
-Clone the repository:
-
-git clone [https://github.com/your-username/your-repository.git](https://github.com/your-username/your-repository.git)
-
-Navigate to the project folder:
-
+# Navigate to the project folder
 cd your-repository
 
-Install the dependencies:
-
+# Install dependencies
 npm install
 
-Start the Expo development server:
-
+# Start the Expo development server
 expo start
 
-Open on your phone:
-
-Scan the QR code displayed in the terminal with the Expo Go app.
-
-👨‍💻 Author
-Made with ❤️ by [Your Name]
-
-LinkedIn: your-linkedin
-
-GitHub: @your-username
+# Open on your phone:
+- Scan the QR code displayed in the terminal with the Expo Go app.
