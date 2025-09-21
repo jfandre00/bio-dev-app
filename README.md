@@ -34,13 +34,13 @@ The project was developed iteratively through 16 exercises covering everything f
 ## 📸 App Screenshots
 
 - **Home Screen (Light)**  
-  ![Home Screen](./screenshots/home.png)  
+  ![Home Screen](./src/screenshots/home.PNG)  
 
 - **Projects Screen (Dark)**  
-  ![Projects Screen](./screenshots/projects.png)  
+  ![Projects Screen](./src/screenshots/projects.PNG)  
 
 - **Settings Screen**  
-  ![Settings Screen](./screenshots/settings.png)  
+  ![Settings Screen](./src/screenshots/settings.PNG)  
 
 
 ---
